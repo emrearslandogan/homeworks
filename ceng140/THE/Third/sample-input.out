@@ -1,0 +1,58 @@
+Processing action 1
+UserCache:
+User: 5, Username: tupac, Followers: 1, Following: 0, Liked: 0
+User: 3, Username: eminem, Followers: 0, Following: 1, Liked: 0
+
+
+Processing action 2
+UserCache:
+User: 3, Username: eminem, Followers: 0, Following: 1, Liked: 1
+User: 5, Username: tupac, Followers: 1, Following: 0, Liked: 0
+
+PostCache:
+Post: 6, Author: tupac, Likes: 1
+
+
+Processing action 3
+UserCache:
+User: 3, Username: eminem, Followers: 1, Following: 1, Liked: 1
+User: 5, Username: tupac, Followers: 1, Following: 1, Liked: 0
+
+
+Processing action 4
+UserCache:
+User: 5, Username: tupac, Followers: 1, Following: 1, Liked: 1
+User: 3, Username: eminem, Followers: 1, Following: 1, Liked: 1
+
+PostCache:
+Post: 6, Author: tupac, Likes: 1
+Post: 7, Author: tupac, Likes: 1
+
+
+Processing action 5
+UserCache:
+User: 5, Username: tupac, Followers: 1, Following: 1, Liked: 2
+User: 3, Username: eminem, Followers: 1, Following: 1, Liked: 1
+
+PostCache:
+Post: 6, Author: tupac, Likes: 1
+Post: 7, Author: tupac, Likes: 1
+Post: 1, Author: tupac, Likes: 1
+
+
+Processing action 6
+UserCache:
+User: 5, Username: tupac, Followers: 1, Following: 1, Liked: 3
+User: 3, Username: eminem, Followers: 1, Following: 1, Liked: 1
+
+PostCache:
+Post: 7, Author: tupac, Likes: 1
+Post: 1, Author: tupac, Likes: 1
+Post: 2, Author: tupac, Likes: 1
+
+
+Followers of all users in UserCache in reverse:
+Followers of user with id 3 in reverse:
+[5] 
+Followers of user with id 5 in reverse:
+[3] 
